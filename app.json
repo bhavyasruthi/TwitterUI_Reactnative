@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "sdkVersion": "23.0.0"
+  },
+    "ios": {
+        "supportsTablet": true
+    },
+    "android": {
+        "androidStatusBarColor": "#334393",
+        "androidStatusBar": {
+            "barStyle": "light-content",
+            "backgroundColor": "#334393"
+        }
+    }
+}
