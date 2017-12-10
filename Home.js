@@ -10,16 +10,18 @@ import Drawer from "./Drawer";
 import AppHeader from "./AppHeader";
 import Timeline from "./Timeline";
 import Search from "./Search";
+import SearchWindow from "./SearchWindow";
 import Tab3 from "./Tab3";
 import Tab4 from "./Tab4";
 import TabBarComponent from './TabBarComponent';
 
+
 const HomeTabNavigator = TabNavigator(
                                     {
-                                    Timeline : {screen : Timeline, navigationOptions: { title: 'Timeline', header: { title: 'Timeline' } }},
-                                    Search : {screen : Search, navigationOptions: { title: 'Search', header: (props)=><ImageHeader {...props} />, }},
-                                      Tab3 : {screen : Tab3, navigationOptions: { title: 'Tab3', header: { title: 'Tab3' } }},
-                                      Tab4 : {screen : Tab4, navigationOptions: { title: 'Tab4', header: { title: 'Tab4' } }},
+                                      Timeline : {screen : Timeline},
+                                      Search : {screen : Search},
+                                      Tab3 : {screen : Tab3},
+                                      Tab4 : {screen : Tab4},
                                     },
                                     {
                                       
@@ -65,6 +67,11 @@ const HomeScreenDrawer = DrawerNavigator(
                                          );
 
 const MyAppNavigator = StackNavigator({
-                                      Home: { screen: HomeTabNavigator },
-                                      });
-export default HomeScreenDrawer;
+                                      HomeStack: { screen: HomeScreenDrawer },
+                                      SearchWindow :{ screen: SearchWindow },
+                                      },
+                                      {
+                                      headerMode: "none",
+                                      }
+                                      );
+export default MyAppNavigator;
