@@ -8,14 +8,14 @@ const SearchHeader = (props) => {
             <Header searchBar rounded style={{backgroundColor:'white',elevation: 0}}>
             <Left >
             <Button transparent
-            onPress={()=>navigation.navigate("DrawerOpen")}>
+            onPress={()=>{navigation.navigate("DrawerOpen")}}>
             <Image style={styles.image} source={require('./ProfilePic.png' )}/>
             </Button>
             </Left>
             <Body>
-            <Item rounded style={{width:250}}>
+            <Item rounded style={{width:250,backgroundColor:'#F1F2F3'}}>
             <Icon name="search" />
-            <Input placeholder="Search Twitter" />
+            <Input placeholder="Search Twitter" onChangeText={()=>navigation.navigate("SearchWindow")}/>
             </Item>
             </Body>
             <Right>
