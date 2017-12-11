@@ -15,6 +15,9 @@ This project is a demonstration of building Twitter mobile app UI using reactnat
 - Entypo,Feather,FontAwesome,Ionicons,MaterialCommunityIcons of react-native-vector-icons
 - ActionButton of react-native-action-button
 - RefreshControl of react-native
+- KeyboardAvoidingView of react-native
+
+You can find implementation of all these feautures in .js files and are documented.
 
 ## Twitter Embedded Timelines 
 
@@ -28,7 +31,7 @@ Download this project to your local system. Open commandprompt and navigate to t
 
 - Node - https://nodejs.org/en/
 - npm (by default npm gets installed when node is installed) - https://www.npmjs.com/get-npm
-- Reactnative(Projects works best with Expo) - https://facebook.github.io/react-native/docs/getting-started.html
+- Reactnative(This project works best with Expo) - https://facebook.github.io/react-native/docs/getting-started.html
 - Native-base - https://github.com/GeekyAnts/NativeBase
 - react-native-vector-icons - https://github.com/oblador/react-native-vector-icons
 - ActionButton - https://github.com/mastermoo/react-native-action-button
