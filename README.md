@@ -2,6 +2,8 @@
 
 This project is a demonstration of building Twitter mobile app UI using reactnative. It also helps you in best understanding of the basics of reactnative. Please note that there is no backend integration in this project. Project uses Embedded Timelines feature(mock data) and demonstartes UI of Twitter Android Mobile App. It mainly demonstrates -
 
+<a href="https://imgflip.com/gif/20vee2"><img src="https://i.imgflip.com/20vee2.gif" title="made at imgflip.com"/></a>
+
 ## Screens
 
 - Twitter timeline
