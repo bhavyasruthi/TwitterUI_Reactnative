@@ -8,7 +8,7 @@ This project is a demonstration of building Twitter mobile app UI using reactnat
 - Twitter profile menu
 - Twitter search box
 
-## Reactnative Features:
+## Reactnative Features
 
 - StackNavigator, TabNavigator, DrawerNavigator of react-navigation
 - Header,Footer of native-base
@@ -16,7 +16,9 @@ This project is a demonstration of building Twitter mobile app UI using reactnat
 - ActionButton of react-native-action-button
 - RefreshControl of react-native
 
-## Twitter Embedded Timelines -introduced by Twitter to embed (live feed) timelines into our app
+## Twitter Embedded Timelines 
+
+Twitter Embedded Timelines are introduced by Twitter to embed (live feed) timelines into our app. You can check details of this at https://dev.twitter.com/web/embedded-timelines
 
 ## Getting Started
 
