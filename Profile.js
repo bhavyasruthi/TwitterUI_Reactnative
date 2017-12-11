@@ -6,8 +6,6 @@ import Entypo from 'react-native-vector-icons/Entypo';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
-//import Divider from 'material-ui/Divider';
-//import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 export default class App extends React.Component {
     render() {
@@ -16,7 +14,7 @@ export default class App extends React.Component {
                 
                 <Content>
                 <View style={styles.container}>
-                    <Image style={{height:55, width:50  }}source={require("./Profile.png")} />
+                    <Image style={{height:55, width:50  }}source={require("./images/Profile.png")} />
                     <Text style ={{fontSize: 18,fontWeight: 'bold'}}>Bhavya Sruthi Sode{'                 '}
                         <Entypo name='chevron-small-down' style={{fontSize: 25, fontWeight: 'bold',color: '#00aced'}}/></Text>
                     <Text style ={{fontSize: 15,color:'grey'}}>@BhavyaSode</Text>

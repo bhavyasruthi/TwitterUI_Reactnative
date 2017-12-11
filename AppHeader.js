@@ -13,7 +13,7 @@ const AppHeader = (props) => {
                     <Left >
                         <Button transparent
                         onPress={()=>navigation.navigate("DrawerOpen")}>
-                        <Image style={styles.image} source={require('./ProfilePic.png' )}/>
+                        <Image style={styles.image} source={require('./images/ProfilePic.png' )}/>
                         </Button>
                     </Left>
                     <Body >
