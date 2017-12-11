@@ -42,8 +42,18 @@ Download this project to your local system. Open commandprompt and navigate to t
 ```
 Install nvm and node
 Install dependencies: npm install <Dependency> --save
-Run it: npm start
+Run Project : npm start
+Output : Scan QR code by using Expo or press 'a' to run app on Android emulator
 ```
+## Working flow of project
+```
+App.js -> js/AppMain.js -> Home.js -> TabNavigator(Timeline.js,Search.js,Notification.js,Messages.js)-> TabBarComponent.js -> AppHeader.js
+                                   -> DrawerNavigator(Home.js with content Profile.js)                                   ->SearchHeader.js
+                                   -> StackNavigator(Homestack,SearchWindow.js)
+                                   
+```
+
+#### Developed as part of Hasura https://hasura.io/
 ## Author
 
 Bhavya Sruthi Sode
