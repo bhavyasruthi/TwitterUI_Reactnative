@@ -1,6 +1,6 @@
 # TwitterUI_Reactnative
 
-This project is a demonstration of building Twitter mobile app UI using reactnative. It also helps you in best understanding of the basics of reactnative. Please note that there is no backend integration in this project. Project uses Embedded Timelines feature(mock data) and demonstartes UI of Twitter Android Mobile App. It mainly demonstrates -
+TwitterUI_Reactnative project is a demonstration of building Twitter mobile app UI using Reactnative. It also helps you in best understanding of the basic features of reactnative. Please note that there is no backend integration in this project. Project uses Embedded Timelines feature and demonstartes UI of Twitter Android Mobile App. It mainly demonstrates -
 
 <a href="https://imgflip.com/gif/20vee2"><img src="https://i.imgflip.com/20vee2.gif" title="made at imgflip.com"/></a>
 
@@ -10,14 +10,17 @@ This project is a demonstration of building Twitter mobile app UI using reactnat
 - Twitter profile menu
 - Twitter search box
 
-## Reactnative Features
+## ReactNative Features (Mainly)
 
-- StackNavigator, TabNavigator, DrawerNavigator of react-navigation
-- Header,Footer of native-base
+- StackNavigator, TabNavigator, DrawerNavigator : react-navigation
+- Header,Footer : native-base
+- TouchableNativeFeedback : react-native
+- ActionButton : react-native-action-button
+- RefreshControl : react-native
+- KeyboardAvoidingView : react-native
+- WebView nested in ScrollView, Dimensions, Platform : react-native
 - Entypo,Feather,FontAwesome,Ionicons,MaterialCommunityIcons of react-native-vector-icons
-- ActionButton of react-native-action-button
-- RefreshControl of react-native
-- KeyboardAvoidingView of react-native
+
 
 You can find implementation of all these feautures in .js files and are documented.
 
