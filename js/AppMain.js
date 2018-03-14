@@ -18,7 +18,7 @@ const AppNavigator = StackNavigator(
                                     );
 
 
-
+// I am directly loading Home component here without using AppNavigator. If we want to add more screens in this stack in future we can do so using AppNavigator.
 export default () =>
 <Root>
 <Home/>
